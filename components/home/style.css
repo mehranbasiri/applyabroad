@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Mada&display=swap");
+
+.swiper {
+  background-color: rgb(3, 3, 39);
+  width: 75%;
+  color: #fff;
+  border-radius: 150px;
+  height: 40rem;
+}
+.img-container {
+  float: left;
+}
+.img-container img {
+  margin-left: 3rem;
+  width: 25rem;
+  height: 35rem;
+  padding: 1rem;
+}
+.info-container {
+  float: right;
+  margin-right: 2.5rem;
+  margin-top: 1rem;
+}
+.info-container h1 {
+  font-family: "Mada", sans-serif;
+  font-size: 6rem;
+}
+.info-container p {
+  font-size: 4rem;
+}
+.country-container {
+  margin: 2rem auto;
+  width: 80%;
+  height: 42rem;
+  background-color: rgb(3, 3, 39);
+  text-align: center;
+  border-radius: 40px;
+}
+
+.country-item {
+  margin: 3rem 3rem;
+  display: inline-block;
+
+  width: 150px;
+  height: 150px;
+}
+.country-item img {
+  width: 150px;
+  height: 150px;
+  border: solid 10px rgb(126, 125, 125);
+  border-radius: 50%;
+}
+.country-item p {
+  margin-left: 2.5rem;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+}
+.country-container h5 {
+  margin: 5rem auto;
+  color: #fff;
+  width: 100%;
+  font-size: 15px;
+  display: inline-block;
+}
+.services {
+  width: 78%;
+  margin: 5rem auto;
+}
+.services .title {
+  display: flex;
+  position: relative;
+  left: 40rem;
+}
+.services-item {
+  background-color: rgb(3, 3, 39);
+  width: 20rem;
+  height: 30rem;
+  display: inline-block;
+  margin: 1rem 1rem;
+  color: #fff;
+  border-radius: 30px;
+}
+.services-item img {
+  margin: 2rem;
+  width: 250px;
+  height: 230px;
+  border-radius: 30px;
+}
+.services-item p {
+  font-size: 25px;
+  margin: 0.5rem 0.5rem;
+  font-family: "Mada", sans-serif;
+  color: rgb(180, 177, 177);
+}
+
+.done .icons-item {
+  display: inline-block;
+  margin: 1rem 1rem;
+}
+.done .icon {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  margin: 2rem auto;
+  color: rgb(4, 4, 68);
+}
+.done .icons-item span {
+  font-size: 40px;
+  margin: auto;
+  color: rgb(4, 4, 68);
+}
+.icons-item p {
+  margin: auto;
+  color: rgb(4, 4, 68);
+  font-size: 20px;
+}
+.package {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.package-item {
+  background-color: rgb(3, 3, 63);
+  width: 17rem;
+  height: 25rem;
+  display: inline-block;
+  margin: 2rem 2rem;
+  border-radius: 30px;
+}
+.package-icon {
+  background-color: #baabda;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin: 1rem auto;
+  border: solid 10px #47597e;
+}
+.package-icon .icon {
+  margin: 1.5rem auto;
+  width: 90px;
+  height: 90px;
+  color: #fff;
+}
+.package-info {
+  color: #fff;
+  height: 11rem;
+}
+.package-info p {
+  font-size: 1.5rem;
+  margin: 1rem 2.5rem;
+}
+.package-info span {
+  position: relative;
+  font-size: 1rem;
+  margin: 3rem 1rem;
+}
+.movie-container {
+  background-color: rgb(3, 3, 39);
+  width: 78%;
+  height: 32.5rem;
+  border-radius: 30px;
+  margin: 6rem auto;
+  position: relative;
+}
+.movie-container img {
+  position: relative;
+  z-index: 1;
+  width: 600px;
+  height: 600px;
+  top: -5rem;
+
+  display: flex;
+  float: left;
+}
+.movie-container .info {
+  position: relative;
+  float: right;
+  margin: 1rem 2rem;
+  color: #fff;
+}
+.movie-container .info h5 {
+  font-size: 25px;
+}
+.movie-container .info .learn-video {
+  border-radius: 50px;
+}
+.movie-container .info .button {
+  background-color: #fff;
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: larger;
+  font-weight: bold;
+  margin: 3rem;
+}
+.clock-container {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.clock-container h3 {
+  position: relative;
+  left: 28rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.clock-container .clock-item {
+  width: 230px;
+  height: 300px;
+
+  display: inline-block;
+  margin: 1rem;
+}
+.clock-item .clock {
+  position: relative;
+  margin: 2rem 2.5rem;
+}
+.world-clock-con {
+  width: 80%;
+  display: flex;
+  margin: 3rem auto;
+  position: relative;
+  left: 17%;
+}
+.world-clock-con .mm {
+  margin: 0rem 4rem;
+  width: 300px;
+  font-size: x-large;
+}
+.world-clock {
+  width: 330px;
+  display: inline-block;
+  margin: 0rem 2rem;
+}
+.world-clock select {
+  text-align: center;
+  width: 400px;
+  height: 40px;
+  margin: 1rem;
+  border: solid black;
+  border-width: 0px 0px 3px 0px;
+  font-size: larger;
+  color: rgb(4, 4, 68);
+  background: none;
+  padding-bottom: 5px;
+}
+.world-clock span {
+  display: inline-block;
+
+  position: relative;
+  left: 6rem;
+  font-size: large;
+}
+
+.successful {
+  background-color: rgb(3, 3, 39);
+  width: 78%;
+  height: 40rem;
+  margin: 3rem auto;
+  color: #fff;
+  display: flex;
+  border-radius: 30px;
+}
+.people-item {
+  margin: 2rem;
+}
+.people-item img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 18px solid #2b3f67;
+}
+.people-item h3 {
+  color: rgb(186, 185, 185);
+}
+.result {
+  display: inline-block;
+  position: relative;
+  bottom: 15rem;
+  z-index: 2;
+  font-size: 2rem;
+  color: #fff;
+}
+.result p {
+  font-size: 1.5rem;
+}
+.news {
+  width: 78%;
+  margin: 3rem auto;
+}
+.news .news-items {
+  display: inline-block;
+
+  width: 100%;
+}
+.news-item {
+  display: block;
+
+  margin: 3rem 2rem;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  float: left;
+}
+.news-item img {
+  width: 200px;
+  height: 150px;
+  border-radius: 30px;
+}
+.news-item h3 {
+  font-size: 1.8rem;
+  color: rgb(3, 3, 39);
+}
+.news-item p {
+  display: flex;
+  font-size: 1.5rem;
+  width: 130px;
+
+  margin: 0.75rem auto;
+  color: rgb(6, 26, 104);
+}
